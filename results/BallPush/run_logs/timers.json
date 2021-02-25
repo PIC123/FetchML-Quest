@@ -1,0 +1,41 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1595977630",
+        "python_version": "3.8.2 (default, Jul 16 2020, 14:00:26) \n[GCC 9.3.0]",
+        "command_line_arguments": "/home/phcherne/.local/bin/mlagents-learn --run-id=BallPush",
+        "mlagents_version": "0.18.0",
+        "mlagents_envs_version": "0.18.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.2.0",
+        "end_time_seconds": "1595977690"
+    },
+    "total": 60.25698900000134,
+    "count": 1,
+    "self": 0.035342399998626206,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11956410000129836,
+            "count": 1,
+            "self": 0.11956410000129836
+        },
+        "TrainerController.start_learning": {
+            "total": 60.102082500001416,
+            "count": 1,
+            "self": 0.0005314000009093434,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.10102249999909,
+                    "count": 1,
+                    "self": 60.10102249999909
+                },
+                "TrainerController._save_model": {
+                    "total": 0.0005286000014166348,
+                    "count": 1,
+                    "self": 0.0005286000014166348
+                }
+            }
+        }
+    }
+}
